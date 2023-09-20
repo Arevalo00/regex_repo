@@ -61,17 +61,19 @@ Grouping can be done with (), this will group all the regex that you need to mat
 
 [^<>()[\]
 
-
+Bracket expressions are used in regex groups to help separet different parts of the regex. Like in this part of the email regex, its a small part but 
 
 
 ### Greedy and Lazy Match
 
+There differnt kinds of matches a greedy match looks for all the matches that it can possibly make. However a lazy match looks for the frist one that matches and stops looking after that. 
+
 ### Boundaries
+
 
 ### Back-references
 
 ### Look-ahead and Look-behind
 
-## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
