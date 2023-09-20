@@ -53,9 +53,16 @@ Flags are a way of looking for certin data, with ?i, one thing you can look for 
 
 ### Grouping and Capturing
 
-Grouping can be done with (), this will group all the regex that you need to match your 
+ /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)
+
+Grouping can be done with (), this will group all the regex that you need to match your expresstion. It also helps with readablity, and helps separate diffient groups. 
 
 ### Bracket Expressions
+
+[^<>()[\]
+
+
+
 
 ### Greedy and Lazy Match
 
